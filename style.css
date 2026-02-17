@@ -1,0 +1,91 @@
+:root{
+    --pink: #3f464d;
+    --bg: #0a0a0a;
+    --shadow: 0 2px rgba(199, 143, 21, 0.5);
+}
+
+body {
+    font-size: 1.2rem;
+     font-family: "Work Sans", sans-serif;
+     min-height: 2000px;
+}
+
+#background {
+    background-image: url(img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200vh;
+
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+}
+
+.hero h1 {
+    text-shadow: var(--shadow)
+}
+
+.title {
+    text-shadow: var(--shadow)
+}
+
+.hero h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 6rem;
+}
+
+.hero h4 {
+    font-size: 1.6rem;
+}
+
+.hero p {
+    font-size: 1.4rem;
+}
+
+.hero a {
+    color: var(--pink);
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.hero a:hover {
+    background-color: var(--pink);
+    color: white;
+}
+
+.timer {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: #3f464d;
+    width: 320px;
+    margin: 0 auto;
+    align-items: center;
+    color: #b0aeae;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 65;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 50;
+  }  
+}
