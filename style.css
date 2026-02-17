@@ -11,10 +11,7 @@ body {
 }
 
 #background {
-    background-image: url(background.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 200vh;
+    background-color: #b0aeae;
 
 }
 
@@ -90,3 +87,4 @@ body {
   }  
 
 }
+
