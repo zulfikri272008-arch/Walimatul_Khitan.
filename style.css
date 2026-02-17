@@ -11,7 +11,7 @@ body {
 }
 
 #background {
-    background-image: url(img/background.png);
+    background-image: url(background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200vh;
@@ -88,4 +88,5 @@ body {
   html {
     font-size: 50;
   }  
+
 }
